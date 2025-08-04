@@ -46,6 +46,11 @@ public class CatalogoLivro {
         }
         return livroPorTitulo;
     }
+    public static void main(String[] args) {
+        CatalogoLivro catalogoLivro = new CatalogoLivro();
+        catalogoLivro.addLivro("Livro1", "Autor1", 2021);
+        catalogoLivro.addLivro("Livro2", "autor2", 2021);
+    }
 
     }
 
